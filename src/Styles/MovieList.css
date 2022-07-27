@@ -1,0 +1,42 @@
+.MovieListContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-evenly;
+
+}
+
+.MovieContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    gap: 24px;
+    box-shadow: 0 3px 10px 0 black;
+    cursor: pointer;
+}
+
+.CoverImage{
+    object-fit: cover;
+    height: 362px;
+}
+
+.MovieName{
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+    margin: 15px 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.InfoCloumn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+    text-transform: capitalize;
+}
